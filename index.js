@@ -7,7 +7,8 @@ const guest =document.getElementById('Guest');
 
 inputElement.addEventListener("submit",(event)=>{
     event.preventDefault();
-    document.location='http://127.0.0.1:5501/listing.html';
+    // document.location='http://127.0.0.1:5501/listing.html';
+    document.location='https://pavannavde.github.io/Airbnb-clone-project/listing'
         localStorage.setItem('location',LocationEle.value)
         localStorage.setItem('CheckIn',checkin.value)
         localStorage.setItem('CheckOut',checkout.value)
